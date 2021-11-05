@@ -1,5 +1,6 @@
 const faker = require('faker');
 const boom = require('@hapi/boom');
+const getConnection = require('../libs/postgres');
 
 class ProductServices {
 
